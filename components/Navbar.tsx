@@ -26,7 +26,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 mt-5 w-3/4 max-w-[1440px] mx-auto z-50 shadow rounded-full bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex justify-between items-center px-8 py-4">
         <Link href={"/"} className="hover:text-blue-600">
-          E-Kart
+          e-Kart
         </Link>
 
         <div className="hidden md:flex space-x-6">

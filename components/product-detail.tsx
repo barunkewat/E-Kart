@@ -49,11 +49,11 @@ export const ProductDetail = ({ product }: Props) => {
           </p>
         )}
         <div className="flex items-center space-x-4">
-          <Button variant="outline" onClick={() => removeItem(product.id)}>
+          <Button variant="outline" onClick={() => removeItem(product.id)} className="text-xl font-semibold">
             –
           </Button>
           <span className="text-lg font-semibold">{quantity}</span>
-          <Button onClick={onAddItem}>+</Button>
+          <Button variant="outline" onClick={onAddItem} className="text-xl font-semibold">+</Button>
         </div>
       </div>
     </div>
