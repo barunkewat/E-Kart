@@ -26,7 +26,7 @@ export const ProductDetail = ({ product }: Props) => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row gap-8 items-center">
+    <div className="container w-[90%] mx-auto px-4 py-8 flex flex-col md:flex-row gap-8 items-center">
       {product.images && product.images[0] && (
         <div className="relative h-96 w-full md:w-1/2 rounded-lg overflow-hidden">
           <Image
